@@ -1,4 +1,3 @@
-
 Q1: If the predicted function is:
 The method is:
 
@@ -14,7 +13,6 @@ pipe=Pipeline(Input)
 pipe.fit(Z,y)
 ypipe=pipe.predict(Z)
 
-
 a. Standardize the data, then perform a polynomial transform on the features Z
 b. Find the correlation between Z and y
 c. Standardize the data, then perform a prediction using a linear regression model using the features Z and targets y
@@ -26,6 +24,8 @@ Q3: We create a polynomial feature as follows "PolynomialFeatures(degree=2)"; wh
 a. 0
 b. 1
 c. 2
+
+Correct. 2
 
 Q4: Which statement is true about Polynomial linear regression?
 
@@ -45,7 +45,6 @@ Correct. Polynomial Regression
 
 Q6: Consider the following equation:
 
-
 The variable y is what? 
 
 a. The intercept 
@@ -53,10 +52,3 @@ b. The predictor or independent variable
 c. The target or dependent variable     
 
 Correct. The target or dependent variable     
-
-
-
-
-
-
-
